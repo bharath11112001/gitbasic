@@ -1,1 +1,27 @@
-dsfdsf
+<html>
+<head>
+    <title>php login system</title>
+<link rel="styleshee" type="text/css" href="style.css"
+</head>
+<body>
+    <div id="frm">
+        <h1>
+            login        </h1>
+            <form name="f1"action="authentication.php" onsubmit="return validation()" method="POST">
+            <p>
+                <label>username:</label>
+                <input type="text" id="user" name="user"/>
+            </p>
+            <p>
+                <label>password:</label>
+                <input type="text" id="pass" name="pass"/>
+            </p>
+            <p>
+                <input type="submit" id="btn" value="login"/>
+
+            </p>
+            </form>
+
+
+</body>
+</html>
